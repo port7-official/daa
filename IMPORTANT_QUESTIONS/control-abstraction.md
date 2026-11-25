@@ -80,4 +80,32 @@ The Divide and Conquer technique follows three main steps:
 2. **Conquer:** Solve the sub-problems recursively.
 3. **Combine:** Combine the solutions to get the final answer.
 
+# Best Case and Worst Case of Divide and Conquer
+
+## 1. Best Case
+
+- The **Best Case** occurs when the problem is divided into smaller sub-problems in the most efficient way.
+- The sub-problems are balanced, and the total time required to solve and combine them is minimum.
+- It requires the minimum amount of computing time for a given input size.
+
+## 2. Worst Case
+
+- The **Worst Case** occurs when the problem is divided in a less efficient way.
+- The sub-problems may become unbalanced, or additional work may be required to solve and combine them.
+- It requires the maximum amount of computing time for a given input size.
+
+## 3. Examples
+
+The time complexity depends on the particular Divide and Conquer algorithm.
+
+| Algorithm | Best Case | Worst Case |
+|---|---|---|
+| Binary Search | O(1) | O(log n) |
+| Merge Sort | O(n log n) | O(n log n) |
+| Quick Sort | O(n log n) | O(n²) |
+
+## 4. Conclusion
+
+The best-case and worst-case time complexities of Divide and Conquer depend on how the problem is divided into sub-problems and how much time is required to solve and combine them.
+
 **Important for Exam:** Remember the three main operations: Divide, Conquer and Combine, along with the DANDC algorithm and recurrence relation.
