@@ -2,7 +2,7 @@
 
 ## 1. Definition
 
-- **Control Abstraction** is a procedure in which the flow of control is clearly defined, but the actual operations are performed by other functions whose implementations are not specified.
+- **Control Abstraction** is a procedure in which the flow of control is clearly defined, but the actual operations are performed by other functions whose implementations are not specified(Control Abstraction is simply a general plan that tells us what steps to follow to solve a problem, without explaining exactly how each step is performed.).
 - In the **Divide and Conquer** technique, a large problem is divided into smaller sub-problems, solved recursively, and their results are combined to obtain the final solution.
 
 ## 2. General Control Abstraction Algorithm (DANDC)
