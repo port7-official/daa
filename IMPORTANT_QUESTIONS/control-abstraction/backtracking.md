@@ -94,3 +94,14 @@ Backtracking follows these main steps:
 - Bounding Function (Bk) checks whether a path can lead to a solution.
 - Backtracking uses recursive exploration and Depth First Search (DFS).
 - It avoids unnecessary exploration by rejecting non-promising paths.
+
+  1. Start from the first row.
+2. Try placing a queen in each column.
+3. Check whether the position is safe.
+4. If safe, place the queen.
+5. Move to the next row.
+6. If no position is safe:
+      Remove the previous queen.
+      Try another position.
+7. If all queens are placed:
+      Solution found.
